@@ -12,20 +12,25 @@ modules:
     videos:
       - name: Welcome (12:46)
         preview: true
+        url: /
   - name: The Absolute Basics
     videos:
       - name: Values and Types (11:12)
         preview: true
+        url: /
       - name: Expressions (16:10)
         preview: true
+        url: /
       - name: Functions (27:01)
         preview: false
   - name: Object-Oriented Programming in Scala
     videos:
       - name: Object-Oriented Basics (16:26)
         preview: true
+        url: /
       - name: "Object-Oriented Basics: Exercises (24:08)"
         preview: true
+        url: /
       - name: Method Notations (25:23)
         preview: false
 ---
