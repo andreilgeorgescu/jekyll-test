@@ -6,4 +6,26 @@ subtitle: Become a Scala programmer. Dive head-first and hands-on into the funda
 image: https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/RvxMhRHKTY6wDoHGZepd
 cta_link: /contact
 price: $85
+
+modules:
+  - name: Introduction
+    videos:
+      - name: Welcome (12:46)
+        preview: true
+  - name: The Absolute Basics
+    videos:
+      - name: Values and Types (11:12)
+        preview: true
+      - name: Expressions (16:10)
+        preview: true
+      - name: Functions (27:01)
+        preview: false
+  - name: Object-Oriented Programming in Scala
+    videos:
+      - name: Object-Oriented Basics (16:26)
+        preview: true
+      - name: "Object-Oriented Basics: Exercises (24:08)"
+        preview: true
+      - name: Method Notations (25:23)
+        preview: false
 ---

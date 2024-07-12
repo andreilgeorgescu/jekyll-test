@@ -1,0 +1,13 @@
+<h2>Course Overview</h2>
+{% for module in page.modules %}
+<h3>{{module.name}}</h3>
+<ul>
+  {% for video in module.videos %}
+  {% if video.preview == true %}
+  <li>{{video.name: }} preview</li>
+  {% else %}
+  <li>{{video.name: }} no preview</li>
+  {% endif %}
+  {% endfor %}
+</ul>
+{% endfor %}

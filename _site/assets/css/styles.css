@@ -5,6 +5,8 @@ body {
 
 #benefits {
   background-color: #f9f9f9;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #middle_cta {
@@ -17,6 +19,28 @@ body {
 
 #end_cta {
   background: url(https://www.filepicker.io/api/file/CpcD87xkRFuDTLUhMbFN);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#end_cta .inner-content {
+  text-align: center;
+}
+
+#end_cta .inner-content .btn.cta {
+  font-size: 17px;
+  padding: 12px 32px;
+}
+
+#end_cta .inner-content .btn.cta p::before {
+  background-image: url("/assets/images/fa-cart-shopping.svg");
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  margin-right: 10px;
 }
 
 #hero {
@@ -30,7 +54,8 @@ body {
 
 #hero-image {
   flex: 1;
-  max-width: 500px; /* Adjust the size as needed */
+  max-width: 500px;
+  /* Adjust the size as needed */
   margin-right: 20px;
   text-align: center;
 }
@@ -38,7 +63,8 @@ body {
 #hero-image img {
   width: 100%;
   height: auto;
-  border-radius: 10px; /* Optional: Add some styling to the image */
+  border-radius: 10px;
+  /* Optional: Add some styling to the image */
 }
 
 #hero-content {
@@ -67,7 +93,8 @@ body {
 }
 
 #navbar-logo img {
-  max-height: 50px; /* Adjust the logo size as needed */
+  max-height: 50px;
+  /* Adjust the logo size as needed */
 }
 
 #navbar-links {
@@ -155,6 +182,124 @@ body {
   color: #ffcc00;
 }
 
+#benefits .inner-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#benefits .inner-content h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+#middle_cta .inner-content {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about .inner-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about .inner-content .instructor-profile {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#about .inner-content .instructor-bio {
+  flex: 2;
+  margin-left: 10px;
+}
+
+#about .inner-content .instructor-bio h2 {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+#about .inner-content .instructor-bio p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+#faq {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#faq .inner-content {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#faq .inner-content h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#faq .inner-content h2::before {
+  background-image: url("/assets/images/fa-question-circle.svg");
+  background-size: 30px 30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  content: "";
+  margin-right: 10px;
+}
+
+#faq .inner-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#faq .inner-content p {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+}
+
+#overview {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#overview .inner-content {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#overview .inner-content h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 880px) {
   #hero {
     flex-direction: column;
@@ -174,10 +319,28 @@ body {
   #intro .inner-content {
     width: 80%;
   }
+  #about .inner-content {
+    width: 80%;
+    flex-direction: column;
+  }
+  #about .inner-content .instructor-profile {
+    flex: 2;
+    text-align: center;
+  }
+  #about .inner-content .instructor-profile #photo-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 600px) {
   #intro {
     min-height: 600px;
+  }
+  #benefits .inner-content {
+    width: 80%;
+  }
+  #faq .inner-content {
+    width: 80%;
   }
 }
 @media (max-width: 480px) {
