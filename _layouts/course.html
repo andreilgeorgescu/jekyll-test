@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    {% include header.html %}
+    <main>
+      {% include hero.html %}
+      <section id="intro">
+        <div class="inner-content">
+          {% capture intro_content %} {% include_relative {{ page.course
+          }}/intro.md %} {% endcapture %} {{ intro_content | markdownify }}
+        </div>
+      </section>
+      <section id="benefits">
+        {% capture benefits_content %} {% include_relative {{ page.course
+        }}/benefits.md %} {% endcapture %} {{ benefits_content | markdownify }}
+      </section>
+      <section id="overview">
+        {% capture overview_content %} {% include_relative {{ page.course
+        }}/overview.md %} {% endcapture %} {{ overview_content | markdownify }}
+      </section>
+      <section id="middle_cta">
+        <h2>Get started now!</h2>
+        {% include cta.html %}
+      </section>
+      <section id="about">{% include about.html %}</section>
+      <section id="faq">
+        {% capture faq_content %} {% include_relative {{ page.course }}/faq.md
+        %} {% endcapture %} {{ faq_content | markdownify }}
+      </section>
+      <section id="end_cta">{% include cta.html %}</section>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

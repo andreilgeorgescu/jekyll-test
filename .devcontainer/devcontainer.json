@@ -1,14 +1,6 @@
 {
   "name": "Jekyll",
   "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "redhat.vscode-yaml",
-        "esbenp.prettier-vscode"
-      ]
-    }
-  },
   "postAttachCommand": "bundle exec jekyll serve --livereload",
   "forwardPorts": [4000],
   "portsAttributes": {

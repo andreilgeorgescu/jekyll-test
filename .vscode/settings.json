@@ -1,7 +1,0 @@
-{
-  "yaml.schemas": {
-    "../jekyll_frontmatter_schema.json": "/*.md"
-  },
-  "editor.formatOnSave": true,
-  // "editor.defaultFormatter": "esbenp.prettier-vscode"
-}

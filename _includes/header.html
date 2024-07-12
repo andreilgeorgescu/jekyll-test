@@ -1,5 +1,15 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-</nav>
+<header id="header">
+  <nav id="navbar">
+    <div id="navbar-logo">
+      <a href="/">
+        <img src="https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:120/https://file-uploads.teachablecdn.com/effbc0d6cc384212bea0ce3b8c79e6e1/7d77a6a3c0ee4a95845626c0172a705a" alt="Site Logo">
+      </a>
+    </div>
+    <div id="navbar-links">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+      <a href="/signup" class="btn cta">Sign Up</a>
+    </div>
+  </nav>
+</header>
