@@ -23,7 +23,8 @@ body {
 }
 
 #end_cta {
-  background: url(https://www.filepicker.io/api/file/CpcD87xkRFuDTLUhMbFN);
+  // background: url(https://www.filepicker.io/api/file/CpcD87xkRFuDTLUhMbFN);
+  background: radial-gradient(circle at bottom, #5c86c9 0, #2057a8, #2057a8 150%); // linear-gradient(#2057a8, #7395ca);
   background-size: cover;
   //background-position: center center;
   padding-top: 100px;
@@ -166,7 +167,7 @@ body {
   min-height: 500px;
   background-position: center center;
   background-size: cover;
-  background: url(https://www.filepicker.io/api/file/CpcD87xkRFuDTLUhMbFN);
+  background: radial-gradient(circle at bottom, #5c86c9 0, #2057a8, #2057a8 150%); // url(https://www.filepicker.io/api/file/CpcD87xkRFuDTLUhMbFN);
 }
 
 #intro .inner-content {
