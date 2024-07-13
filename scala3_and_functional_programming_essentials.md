@@ -7,6 +7,9 @@ image: https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:7
 cta_link: /contact
 price: $85
 
+primary_color: "#2057a8"
+secondary_color: "#5c86c9"
+
 modules:
   - name: Introduction
     videos:

@@ -1,0 +1,9 @@
+<section class="feature">
+  <div class="feature-image">
+    <img src="{{ page.image }}" alt="{{ page.image-alt }}" />
+  </div>
+  <div class="feature-content">
+    {% capture benefits_content %} {% include_relative {{ page.course
+    }}/.md %} {% endcapture %} {{ benefits_content | markdownify }}
+  </div>
+</section>

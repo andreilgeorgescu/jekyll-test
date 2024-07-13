@@ -18,7 +18,6 @@ body {
 }
 
 #end_cta {
-  background: radial-gradient(circle at bottom, #5c86c9 0, #2057a8, #2057a8 150%);
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -151,7 +150,6 @@ body {
   min-height: 500px;
   background-position: center center;
   background-size: cover;
-  background: radial-gradient(circle at bottom, #5c86c9 0, #2057a8, #2057a8 150%);
 }
 
 #intro .inner-content {

@@ -12,7 +12,8 @@
   {% include header.html %}
   <main>
     {% include hero.html %}
-    <section id="intro">
+    <section id="intro"
+      style="background: radial-gradient(circle at bottom, {{page.secondary_color}} 0, {{page.primary_color}}, {{page.primary_color}} 150%)">
       <div class="inner-content">
         {% capture intro_content %} {% include_relative {{ page.course
         }}/intro.md %} {% endcapture %} {{ intro_content | markdownify }}
@@ -46,7 +47,8 @@
         %} {% endcapture %} {{ faq_content | markdownify }}
       </div>
     </section>
-    <section id="end_cta">
+    <section id="end_cta"
+      style="background: radial-gradient(circle at bottom, {{page.secondary_color}} 0, {{page.primary_color}}, {{page.primary_color}} 150%)">
       <div class="inner-content">
         {% include cta.html %}
       </div>
