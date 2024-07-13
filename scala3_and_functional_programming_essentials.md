@@ -23,6 +23,7 @@ modules:
         url: /
       - name: Functions (27:01)
         preview: false
+        url: /
   - name: Object-Oriented Programming in Scala
     videos:
       - name: Object-Oriented Basics (16:26)
@@ -33,6 +34,7 @@ modules:
         url: /
       - name: Method Notations (25:23)
         preview: false
+        url: /
   - name: Object-Oriented Programming in Scala
     videos:
       - name: Object-Oriented Basics (16:26)
@@ -43,4 +45,5 @@ modules:
         url: /
       - name: Method Notations (25:23)
         preview: false
+        url: /
 ---

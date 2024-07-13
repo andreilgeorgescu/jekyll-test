@@ -287,7 +287,7 @@ body {
 }
 
 #overview .inner-content {
-  width: 80%;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -326,6 +326,11 @@ body {
   justify-content: space-between;
 }
 
+#overview .inner-content .video:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
 #overview .inner-content h3 {
   margin-top: auto;
   margin-bottom: auto;
@@ -334,6 +339,16 @@ body {
 #overview .inner-content .video p {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+#overview .inner-content .video #video-name::before {
+  background-image: url("/assets/images/fa-youtube-play.svg");
+  background-size: 20px 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  margin-right: 10px;
 }
 
 #overview .inner-content .btn.cta p {
@@ -362,9 +377,6 @@ body {
   font-size: 13px;
   height: fit-content;
   background-color: #7395ca;
-  pointer-events: none;
-  cursor: default;
-  text-decoration: none;
 }
 
 #overview-hide {
@@ -378,6 +390,7 @@ body {
   margin-top: 20px;
   padding: 10px 10px;
   display: none;
+  cursor: pointer;
 }
 
 #overview-expand {
@@ -391,6 +404,7 @@ body {
   margin-top: 20px;
   padding: 10px 10px;
   display: block;
+  cursor: pointer;
 }
 
 #overview .inner-content .hidden-module {
@@ -437,6 +451,9 @@ body {
     width: 80%;
   }
   #faq .inner-content {
+    width: 80%;
+  }
+  #overview .inner-content {
     width: 80%;
   }
 }

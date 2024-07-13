@@ -8,19 +8,20 @@
     </div>
     <div class="video-list">
       {% for video in module.videos %}
-      <div class="video">
+      <div class="video" onclick="location.href='{{video.url}}';">
         {% if video.preview == true %}
-        <p>{{video.name}}:</p>
+        <p id="video-name">{{video.name}}</p>
         <a href="{{ video.url }}" class="btn cta preview">
           <p>Preview</p>
         </a>
         {% else %}
-        <p>{{video.name}}:</p>
+        <p id="video-name">{{video.name}}</p>
         <a href="{{ video.url }}" class="btn cta disabled">
           <p>Start</p>
         </a>
         {% endif %}
       </div>
+      </a>
       {% assign i = i | plus:1 %}
       {% endfor %}
     </div>
