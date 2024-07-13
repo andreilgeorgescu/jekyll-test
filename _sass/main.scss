@@ -439,10 +439,33 @@ body {
   display: none;
 }
 
-// #hide:target+#show,
-// #hide:target~#answer {
-//   display: inherit;
-// }
+#footer .footnav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#footer .footnav .copyright {
+  margin-right: 20%;
+}
+
+#footer .footnav .footnav-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20%;
+}
+
+#footer .footnav .footnav-links a {
+  text-decoration: none;
+  color: #bac1c7;
+}
+
+#footer .footnav .footnav-links a:hover {
+  text-decoration: none;
+  color: #2057a8;
+}
 
 @media (max-width: 880px) {
   #hero {
