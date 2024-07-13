@@ -385,6 +385,47 @@ body {
   text-decoration: none;
 }
 
+// #answer,
+// #show,
+// #hide:target {
+//   display: none;
+// }
+
+#overview-hide {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #ccc;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px 10px;
+  display: none;
+}
+
+#overview-expand {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: #ccc;
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px 10px;
+  display: block;
+}
+
+#overview .inner-content .hidden-module {
+  display: none;
+}
+
+// #hide:target+#show,
+// #hide:target~#answer {
+//   display: inherit;
+// }
+
 @media (max-width: 880px) {
   #hero {
     flex-direction: column;

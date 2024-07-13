@@ -33,4 +33,14 @@ modules:
         url: /
       - name: Method Notations (25:23)
         preview: false
+  - name: Object-Oriented Programming in Scala
+    videos:
+      - name: Object-Oriented Basics (16:26)
+        preview: true
+        url: /
+      - name: "Object-Oriented Basics: Exercises (24:08)"
+        preview: true
+        url: /
+      - name: Method Notations (25:23)
+        preview: false
 ---
